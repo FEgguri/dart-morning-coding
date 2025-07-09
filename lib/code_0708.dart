@@ -11,5 +11,5 @@ class Solution {
 
 void main() {
   var soultion = Solution();
-  print(soultion.tribonacci(6));
+  print(soultion.tribonacci(2));
 }
