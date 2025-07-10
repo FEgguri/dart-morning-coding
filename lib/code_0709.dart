@@ -22,7 +22,7 @@ class Solution {
 }
 
 void main() {
-  List<int> nums = [2, 2, 1, 1, 1, 2, 3, 2, 3, 3, 3, 3];
+  List<int> nums = [2, 2, 1, 1, 1, 2, 3, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4];
   var soultion = Solution();
   print(soultion.majority(nums));
 }
