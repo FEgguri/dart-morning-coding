@@ -1,10 +1,9 @@
 int stringIndex(String haystack, String needle) {
-  //실수 반환할거라서 int
   final hayList = haystack.split('');
   final needleList = needle.split('');
   //print('${hayList.length} ${needleList.length}');
 
-  if (needleList.isEmpty) return 0;
+  //if (needleList.isEmpty) return 0;
   if (needleList.length > hayList.length) return -1;
 
   //heylist 한글자당 needlelist전체 루프
