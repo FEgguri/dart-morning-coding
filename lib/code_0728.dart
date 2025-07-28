@@ -7,7 +7,7 @@ class RecentCounter {
   int ping(int t) {
     q.addLast(t);
 
-    if (q.isNotEmpty && q.first < t - 3000) {
+    if (q.isNotEmpty && q.first < t - 3000 && q.first > 3000) {
       q.removeFirst();
     }
 
