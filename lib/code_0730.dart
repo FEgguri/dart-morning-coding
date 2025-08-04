@@ -1,5 +1,4 @@
 import 'dart:collection';
-import 'dart:math';
 
 class Solution {
   void rotate(List<int> nums, int k) {
