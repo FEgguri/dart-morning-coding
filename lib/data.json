@@ -1,0 +1,185 @@
+{
+  "status": "success",
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "name": "김철수",
+        "email": "kim@example.com",
+        "profile": {
+          "age": 25,
+          "skills": [
+            "Flutter",
+            "Dart",
+            "Firebase"
+          ],
+          "projects": [
+            {
+              "name": "쇼핑몰 앱",
+              "duration": "3개월",
+              "technologies": [
+                "Flutter",
+                "Node.js"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "name": "박영희",
+        "email": "park@example.com",
+        "profile": {
+          "age": 28,
+          "skills": [
+            "React",
+            "JavaScript",
+            "TypeScript",
+            "AWS"
+          ],
+          "projects": [
+            {
+              "name": "관리자 대시보드",
+              "duration": "4개월",
+              "technologies": [
+                "React",
+                "Express.js",
+                "MongoDB"
+              ]
+            },
+            {
+              "name": "실시간 채팅 앱",
+              "duration": "2개월",
+              "technologies": [
+                "Socket.io",
+                "Node.js"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "name": "이민수",
+        "email": "lee@example.com",
+        "profile": {
+          "age": 32,
+          "skills": [
+            "Python",
+            "Django",
+            "PostgreSQL",
+            "Docker"
+          ],
+          "projects": [
+            {
+              "name": "데이터 분석 플랫폼",
+              "duration": "6개월",
+              "technologies": [
+                "Python",
+                "Pandas",
+                "FastAPI"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "name": "정수진",
+        "email": "jung@example.com",
+        "profile": {
+          "age": 26,
+          "skills": [
+            "Swift",
+            "iOS",
+            "Core Data",
+            "UIKit"
+          ],
+          "projects": [
+            {
+              "name": "피트니스 트래커",
+              "duration": "5개월",
+              "technologies": [
+                "Swift",
+                "HealthKit",
+                "Core ML"
+              ]
+            },
+            {
+              "name": "음식 배달 앱",
+              "duration": "3개월",
+              "technologies": [
+                "SwiftUI",
+                "Combine"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "name": "최동현",
+        "email": "choi@example.com",
+        "profile": {
+          "age": 30,
+          "skills": [
+            "Java",
+            "Spring Boot",
+            "MySQL",
+            "Redis"
+          ],
+          "projects": [
+            {
+              "name": "전자상거래 API",
+              "duration": "8개월",
+              "technologies": [
+                "Spring Boot",
+                "JPA",
+                "MySQL"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "name": "한지영",
+        "email": "han@example.com",
+        "profile": {
+          "age": 24,
+          "skills": [
+            "Vue.js",
+            "Nuxt.js",
+            "Sass",
+            "Figma"
+          ],
+          "projects": [
+            {
+              "name": "포트폴리오 웹사이트",
+              "duration": "2개월",
+              "technologies": [
+                "Vue.js",
+                "Vuetify",
+                "Firebase"
+              ]
+            },
+            {
+              "name": "온라인 갤러리",
+              "duration": "4개월",
+              "technologies": [
+                "Nuxt.js",
+                "Strapi",
+                "Cloudinary"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "pagination": {
+    "currentPage": 1,
+    "totalPages": 5,
+    "hasNext": true
+  }
+}
