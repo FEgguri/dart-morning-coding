@@ -54,7 +54,7 @@ void main() {
 
 class Solution {
   bool isSubsequence(String s, String t) {
-    int i = 0; // s의 포인터
+    int i = 0; // s의 포인터`
     int j = 0; // t의 포인터
 
     while (i < s.length && j < t.length) {
